@@ -11,7 +11,7 @@ repo sync --force-sync --no-clone-bundle --current-branch --no-tags -j$(nproc --
 ## Build ##
 For Clang builds
 ```bash
-BUILD_CONFIG=kernel/msm-5.4/build.config.msm.lahaina VARIANT=qgki LTO=full CLANG_VERSION=r487747c TARGET_PRODUCT=venus BUILD_KERNEL=1 build/build.sh
+BUILD_CONFIG=kernel/msm-5.4/build.config.msm.lahaina VARIANT=qgki LTO=full CLANG_VERSION=r547379 TARGET_PRODUCT=venus BUILD_KERNEL=1 build/build.sh
 ```
 
 For GCC builds
